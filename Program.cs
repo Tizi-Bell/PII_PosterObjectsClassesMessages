@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Person
+namespace Ucu.Poo.Persons
 {
     public class IdUtils
     {
