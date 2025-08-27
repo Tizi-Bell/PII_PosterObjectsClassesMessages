@@ -73,7 +73,13 @@ public static class Program
     {
         Person john = new Person("John Doe", "1.234.567-2");
         Person jane = new Person("Jane Doe", "8.765.432-7");
+        Person malo = new Person("Malo", "123456789");
+        Person tizi = new Person("Tizi Bell", "5.645.461-3");
+        person blanco = new Person("", "12345672");
         john.IntroduceYourself();
         jane.IntroduceYourself();
+        malo.IntroduceYourself();
+        tizi.IntroduceYourself();
+        blanco.IntroduceYourself();
     }
 }
